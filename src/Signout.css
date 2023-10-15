@@ -1,0 +1,55 @@
+/* SignOut.css */
+
+/* Container for the entire component */
+.signout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Message text styling */
+  .signout-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Button container styling */
+  .button-container {
+    text-align: center;
+  }
+  
+  /* Log Out button container */
+  .signout-button-container {
+    background-color: #3498db;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Log Out button styling */
+  .signout-button {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signout-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Text for logged in and not logged in */
+  .logged-in-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: black; /* Green color for logged in */
+  }
+  
+  .not-logged-in-text {
+    color: #FF5733; /* Red color for not logged in */
+  }
+  

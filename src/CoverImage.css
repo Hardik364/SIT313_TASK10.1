@@ -1,0 +1,14 @@
+.image-container {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; Adjust the height as needed */
+    background-color: whitesmoke;
+  }
+  
+  .image-container img {
+   height: 650px;
+   width: 99%;
+  }
+  

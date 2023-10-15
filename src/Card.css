@@ -1,0 +1,10 @@
+.row {
+    margin-top: 90px;
+    margin-left: 60px;
+    display: flex;
+    margin-bottom: 80px;
+}
+.column {
+    flex: 33.33%;
+    padding:10px;
+}
